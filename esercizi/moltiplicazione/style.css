@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#score{
+    display: flex;
+    justify-content: right;
+}
+
+.form input{
+    block-size: 30px;
+    
+}

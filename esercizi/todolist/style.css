@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    display: flex;
+    block-size: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: purple;
+    inline-size: 500px;
+    block-size: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form input{
+    block-size: 40px;
+    inline-size: 300px;
+    margin-block-start: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*Lista creata con JS*/
+.lista{
+   overflow: scroll;
+}
+
+.elementolista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-block-start: 10px;
+}
+
+.elementolista input{
+    inline-size: 20px;
+    block-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.elementolista button{
+    margin-inline-start: 5px;
+}
+
+.elementolista label{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-inline-start: 35px;
+    background-color: green;
+    inline-size: 200px;
+    border-radius: 10px;
+}

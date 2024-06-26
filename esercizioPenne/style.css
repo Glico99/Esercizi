@@ -1,0 +1,188 @@
+
+/*sezione dedicata ai titoli*/
+
+h1{
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-inline: 7%;
+}
+
+h3{
+    text-align: center;
+}
+
+body{
+    background: url(./img/pen-hd-png-pen-free-download-png-2400-1595349959.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*sezione dedicata ad header e navbar*/
+#navigation ul{
+    display: flex;
+    background-color: lightblue;
+    list-style-type: none;
+    justify-content: center;
+    margin-inline:25%;
+    border-radius: 10px;
+    
+}
+
+#navigation li{
+    font-size: 15px;
+    margin: 2%;
+}
+
+
+
+/*sezione deicata al maincontent*/
+#mainContent{
+    border-radius: 10px;
+    background-color: rgba(150, 185, 197, 0.836);
+}
+
+
+/*sottosezione del maincontent sulla storia delle penne*/
+#storia{
+    text-align: justify;
+    margin-inline:2%;  
+}
+
+#storia img{
+    float:inline-start;
+    margin-inline-end: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#storia span{
+    font-size: 18px;
+
+}
+
+
+/*sottosezione del maincontent sulle penne*/
+#penne{
+    margin-inline: 12.5%;
+    font-size: 20px;
+}
+
+
+/*Sottosezione del maincontent sugli articoli*/
+#articoli{
+    display: flex;
+    justify-content: center;
+}
+
+
+#articoli figure{
+    text-align: center;
+    margin: 20px;
+}
+
+#articoli img{
+    border:1.5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0;
+}
+
+#articoli figcaption{
+    margin: 0;
+}
+    
+/*Sezione dei contatti*/
+#contatti ul{
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(150, 185, 197);
+    border-radius: 10px;
+    
+   
+
+}
+
+#contatti ul {
+    justify-content: center;
+    
+}
+
+#contatti ul>*{
+    justify-content: center;
+    margin-block: 20px;
+    margin-inline: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*sezione dedicata ai links*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#contatti a{
+    margin:0;
+}
+
+
+/*******Media Queries(Sezione dispositivi mobili)*********/
+
+/*******Navigazione*********/
+@media screen  and (max-width:1080px) {
+    #navigation ul{
+    margin-inline:13px;
+    padding: 0;
+    }
+}
+
+/*******Penne*********/
+@media screen and (max-width:600px)
+{
+    #penne{
+        margin-inline:30px;
+
+    }
+    main h3{
+        margin-inline: 15px;
+    }
+}
+
+/*******Articoli*********/
+@media screen and (max-width:600px){
+    #articoli{
+    justify-content: left;
+    overflow-x: scroll;
+    }
+}
+
+/*******Contatti*********/
+@media screen and (max-width:800px){
+    #contatti ul{
+    justify-content: left;
+    overflow-x: scroll;
+    padding-inline:0px;
+    block-size: 100px;
+    }
+}
+@media screen and (max-width:1200px){
+    #contatti ul>*{
+        margin-inline:5px;
+    }
+}

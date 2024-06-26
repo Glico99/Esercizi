@@ -1,0 +1,46 @@
+.navBar ul a {
+ display: inline-block;
+ border-radius: 4px;
+ background-color: rgb(0, 0, 0);
+ border: none;
+ color: rgba(238, 255, 0);
+ text-align: center;
+ font-size: 17px;
+ padding: 16px;
+ width: 130px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+
+.minuscolo:hover{
+    font-size: 14px;
+}
+
+.navBar ul a li {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+.navBar ul a li:after {
+ content: '»';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -15px;
+ transition: 0.5s;
+}
+
+.navBar ul a:hover li {
+ padding-right: 15px;
+ text-shadow: rgba(238, 255, 0, 0.89) 0px 0px 15px;
+}
+
+.navBar ul a:hover li:after {
+ opacity: 1;
+ right: 0;
+}
+
+

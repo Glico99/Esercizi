@@ -1,0 +1,250 @@
+html{
+    background-image: url(./styleImages/mesh-726.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+body{
+    margin:0;
+    inline-size: 100dvw;
+    block-size: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+#titolo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    inline-size: 100cqi;
+    block-size: 25cqb;
+}
+#titolo:hover{
+    cursor: default;
+}
+#titolo img{
+    inline-size: 10cqi;
+    block-size: 10cqi;
+}
+#titolo section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    inline-size: 40cqi;
+}
+#titolo h1{
+    font-weight: normal;
+    font-size: 2.5cqi;
+}
+#titolo h1 b{
+    background-color: black;
+    color: rgba(238, 255, 0);
+    text-shadow: rgba(238, 255, 0, 0.61) 0px 0px 10px;
+    padding: 20px;
+    border-radius: 7px;
+    font-size:3cqi;
+}
+#titolo h2{
+    font-weight: normal;
+    font-size: 1.5cqi;
+}
+
+.navBar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    margin-block: 0px;
+    padding: 20px;
+}
+
+.navBar ul a{
+    margin-inline: 50px;
+}
+
+
+.presentazione{
+    background: url(./styleImages/sfondoCorpo.webp);
+    height: 1400px;
+    inline-size: auto;
+    max-width: 100%;
+    background-size: cover;
+}
+
+#benvenuto{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: rgba(238, 255, 0);
+    text-shadow: rgba(238, 255, 0, 0.61) 0px 0px 10px;
+    font-size: 30px;
+    inline-size: 30%;
+    margin-inline-start: 5%;
+    padding-block-start: 5%;
+    padding-block-end: 1%;
+    padding-inline: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: default;
+}
+
+#storia{
+    background-color: rgba(0, 0, 0, 0.918);
+    border-radius: 60px;
+    padding: 50px;
+    margin-inline-start:60%;
+    margin-inline-end: 4%;
+    margin-block-start: 10%;
+    font-size: 23px;
+    border-radius: 10px;
+    color: rgba(238, 255, 0);
+    text-shadow: rgba(238, 255, 0, 0.61) 0px 0px 10px;
+    cursor: default;
+}
+
+#titoloGalleria{
+    background-color: rgba(0, 0, 0, 0.918);
+    padding: 50px;
+    margin-inline: 20%;
+    margin-block: 1%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+
+#titoloGalleria section{
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+#titoloGalleria figure{
+    display: block;
+    justify-content: center;
+}
+
+
+#titoloGalleria figure img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+#titoloGalleria figure figcaption{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    padding: 10px;
+    block-size: 300px;
+    inline-size: 300px;
+    font-size: 18px;
+    overflow-y: scroll;
+}
+
+.galleria{
+    display: flex;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.galleria figure{
+    padding: 10px;
+    transition: background-color 0.2s ease-in;
+}
+.galleria figure:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.galleria video{
+    object-fit: contain;
+    object-position: center;
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+.galleria figure img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+.galleria figure video{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+.galleria figure figcaption{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    padding: 20px;
+    inline-size: 500px;
+    text-align: center;
+    margin-inline: 50px;
+    border-radius: 8px;
+    margin-block: 2.5%;
+}
+.galleria figure:hover figcaption{
+    color: rgba(238, 255, 0);
+    text-shadow: rgba(238, 255, 0, 0.89) 0px 0px 15px;
+}
+.galleria figure p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.918);
+    border-radius: 8px;
+    margin-inline: 2%;
+    padding: 8px;
+}
+
+#contatti {
+    background-color: rgba(0, 0, 0, 0.918);
+    margin-inline: 25%;
+    margin-block: 20px;
+    padding-block: 30px;
+    border-radius: 10px;
+}
+#contatti ul li{
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-inline: 10%;
+}
+#contatti ul li:hover{
+    color: rgba(238, 255, 0);
+    text-shadow: rgba(238, 255, 0, 0.61) 0px 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contatti a{
+    color: rgba(238, 255, 0);
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 3px;
+    margin-block-end: 10%;
+}
+
+#contatti a:hover{
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+#mappa{
+    padding: 10px;
+    align-items: center;
+}
+
+#mappa iframe{
+    border-radius: 10px;
+}
+
+

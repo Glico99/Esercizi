@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const cats = ["Pete", "Biggles", "Jasmine"];
+
+        let myFavoriteCats = "My cats are called ";
+
+        let i = 0;
+
+        do {
+        if (i === cats.length - 1) {
+            myFavoriteCats += `and ${cats[i]}.`;
+        } else {
+            myFavoriteCats += `${cats[i]}, `;
+        }
+
+        i++;
+        } while (i < cats.length);
+
+        console.log(myFavoriteCats); // "My cats are called Pete, Biggles, and Jasmine."
+
+    </script>
+</body>
+</html>

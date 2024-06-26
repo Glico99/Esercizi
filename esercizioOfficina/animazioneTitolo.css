@@ -1,0 +1,40 @@
+.animazioneTitolo {
+    color: rgba(238, 255, 0);
+    text-shadow: rgba(238, 255, 0, 0.61) 0px 0px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+  
+  .animazioneTitolo::before {
+    margin-left: auto;
+  }
+  
+  .animazioneTitolo::after, .animazioneTitolo::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(238, 255, 0, 0.753);
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .animazioneTitolo:hover::after, .animazioneTitolo:hover::before {
+    width: 100%;
+  }
+  
+  #titoloGalleria p{
+    color: white;
+  }
+  #titoloGalleria p:hover{
+    color: rgba(238, 255, 0);
+    text-shadow: rgba(238, 255, 0, 0.89) 0px 0px 15px;
+    cursor: pointer;
+  }
+
+  
+  

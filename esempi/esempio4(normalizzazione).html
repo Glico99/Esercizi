@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testo</title>
+</head>
+<body>
+    <div class="output">
+        <ul></ul>
+    </div>
+    <script>
+        const list = document.querySelector('.output ul');
+        list.innerHTML = '';
+        const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
+        for (const city of cities) {
+            // write your code just below here
+            //Normalizzazione delle stringhe
+            const result = city.toLowerCase();
+            const capital = result[0].toUpperCase();
+            const updated = result.replace(result[0], capital);
+
+            const listItem = document.createElement('li');
+            listItem.textContent = updated;
+            list.appendChild(listItem);
+        }
+    </script>
+</body>
+</html>
