@@ -2,7 +2,7 @@
 ## In questa cartella si trovano esempi ed esercizi riguardanti HTML/CSS/JavaScript, di seguito verrà spiegato il contenuto delle varie cartelle:
 
 ### Esercizio Officina
-Tra tutti, l'esercizio più completo, che mostra l'utilizzo di vari costrutti e la creazione "from scratch" della struttura di un sito web
+Per quanto riguarda HTML/CSS/JS, l'esercizio più completo, che mostra l'utilizzo di vari costrutti e la creazione "from scratch" della struttura di un sito web
 
 ### Esercizi JS
 Esercitazioni JavaScript per creare elementi della UI
